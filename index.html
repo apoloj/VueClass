@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+	<div id="app">
+		{{fullName}}
+		<br />
+		<hr />
+		<button v-on:click="sumatoria">Suma</button>
+		<button v-on:click="restando">Resta</button>
+		<hr />
+		Valor : {{suma}}
+	</div>
+
+	<script src="src/index.js"></script>
+</body>
+
+</html>

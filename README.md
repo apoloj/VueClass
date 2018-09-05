@@ -1,2 +1,0 @@
-# VueClass
-Created with CodeSandbox
